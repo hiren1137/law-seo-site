@@ -159,7 +159,7 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(251, 250, 247, 0.96);
+  background: var(--bg);
   border-bottom: 1px solid var(--line);
   font-family: var(--font-ui);
 }
@@ -575,4 +575,27 @@ a:hover {
   * {
     transition: none !important;
   }
+}
+
+/* ---------- Legal pages ---------- */
+
+.prose h2 {
+  font-size: 1.3rem;
+  margin-top: 2.25rem;
+}
+
+.prose ul {
+  padding-left: 1.25rem;
+  margin: 0 0 1.1rem;
+}
+
+.prose li {
+  margin-bottom: 0.4rem;
+}
+
+.footer-legal {
+  margin: 1.75rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
 }
